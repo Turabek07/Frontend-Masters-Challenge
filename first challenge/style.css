@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+   
+}
+.second-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: px;
+    width: 400px;
+    height: 600px;
+}
+ img {
+    border-radius: 10px;
+}
+p{
+    font-family: cursive;
+    color: hsl(220, 15%, 55%);
+    line-break: auto;
+    margin-left: 10px;
+    
+}
+.heading p{
+    color: black;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
